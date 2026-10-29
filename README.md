@@ -1,31 +1,35 @@
 # Comparing Democracies
-# By McCullough, Daunovan, Nimishakavi, and Kamalaksha
-#
-# Checkpoint 4
-#
-# Democracy-index-eiu.csv - Daunovan
-# democracy-eiu.csv - Kamalaksha
-# elections.csv - Kamalaksha
-# hdi-ihdi-democracy-by-country.csv - Kamalaksha
 
-## Exploratory analysis
+This project looks at how democracy relates to human development and how democracy scores changed over time.
 
-The [EDA report](EDA.md) summarizes the profiles, data checks, distributions, and relationships in the [combined EDA notebook](Checkpoint%204%20-%20EDA/EDA.ipynb). The EIU files contain democracy scores from 0 to 10; `democracy-eiu.csv` covers 2006-2022, while `democracy-index-eiu.csv` has the same 2,610 shared rows plus 2023 values for 155 entities. The HDI/IHDI file has 194 country rows for 2023.
+## Research questions
 
-**Revised research questions**
+- How are EIU democracy scores related to HDI and IHDI in 2022, including differences around a democracy score of 6?
+- Which countries and published geographic averages declined from 2006 through 2022, and do hybrid regimes show greater annual score variation?
 
-- How are EIU democracy scores related to HDI and IHDI, and does the pattern change around the EIU score threshold of 6?
-- Which countries and regions backslid from 2006 to 2022, and are hybrid regimes more volatile than established democracies?
+The [earlier EDA report](EDA.md) and [combined notebook](Checkpoint%204%20-%20EDA/EDA.ipynb) show our exploratory work. The data documentation below corrects some earlier descriptions, especially the development reference year and the smaller 2023 country sample. The current analysis uses two datasets. The older democracy file and the U.S. elections file are archived in `Data Files No Longer In Use/`.
 
-**Main data issues**
+## Data documentation
 
-| Issue | Action or note |
-| --- | --- |
-| EIU files include World and region averages, and omit 2007 and 2009. | Excluded aggregate rows from country comparisons, kept them for region plots, and flagged the missing years. |
-| The two EIU files repeat all 2,610 shared rows. | Treated the index file as an extension with 2023 data, not a separate dataset. |
-| HDI data has 29 missing IHDI values and 46 missing democracy scores; its IHDI values include `..`. | Cast IHDI to numeric, keep missing values, and use complete cases for plots that need all variables. |
-| Country labels differ across files, and the EIU/HDI years are 2022/2023 with different score scales. | Join by country code, flag the year difference, and keep the 0-10 and 0-1 measures on separate axes. |
-| Don's duplicate-key check tests `(Entity, Code)` but labels it `(Entity, Year)`; the region plots also disagree. | These checks need to be rerun on consistent rows before relying on the results. |
+Read [DATASHEET.md](DATASHEET.md) for the seven-section datasheets, research scope, full codebook, rebuild recipe, join counts, and discussion of access and representation.
 
-**Key findings:** The joined EIU/HDI sample shows a positive democracy-HDI relationship (Pearson r = 0.64), with a step between regime groups. In Kamalaksha's 139 complete cases, democracy is positively related to HDI (r = 0.697) and IHDI (r = 0.674), while inequality loss has a weaker link after accounting for HDI. From 2006 to 2022, 99 countries declined and 66 improved; these associations do not prove cause and effect.
+| Dataset | Source | License and reuse |
+| --- | --- | --- |
+| `democracy-index-eiu.csv` | [Kaggle copy](https://www.kaggle.com/datasets/shreyasur965/democracy-index) of EIU data through [Our World in Data](https://ourworldindata.org/grapher/democracy-index-eiu) | Kaggle declares CC0, but current upstream EIU terms restrict redistribution. Unrestricted reuse is not established |
+| `hdi-ihdi-democracy-by-country.csv` | [marksverdhei on Hugging Face](https://huggingface.co/datasets/marksverdhei/hdi-ihdi-democracy-by-country), combining UNDP and OWID | The package declares CC BY-SA 3.0. UNDP materials use [CC BY 3.0 IGO](https://hdr.undp.org/terms-use). The embedded EIU scores have separate restrictions |
 
+Our biggest limitation is that missing countries can change the pattern we see, especially because the 2023 democracy file leaves out 19 countries with low 2022 scores and the IHDI analysis excludes some authoritarian countries. These are country averages, so they cannot establish cause and effect or describe every group within a country.
+
+## Rebuild the data
+
+From the repository root, run this command with Python 3.9 or newer. No extra packages are needed for the build.
+
+```sh
+python3 build_data.py
+```
+
+The script verifies the input hashes, cleans the columns, separates geographic averages, checks unique keys, and writes analysis tables under `data/`. The main 2022 comparison has 165 countries with HDI and 150 with both HDI and IHDI. See the generated [audit](data/audit.md) and [source manifest](data/source_manifest.json).
+
+The development file labels every row 2023, but its values match the 2022 estimates in UNDP's 2023/24 report. The script preserves both year fields. It also creates a separate 2023 democracy comparison and keeps the historical trend analysis through 2022.
+
+Processed CSVs are generated locally and ignored by Git. They retain the source restrictions. The code, documentation, and audit reports are included in the repository.
