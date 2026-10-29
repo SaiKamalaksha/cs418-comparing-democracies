@@ -97,13 +97,21 @@
 
 ## 6. Distribution and access
 
-| Question | Answer |
-|---|---|
-| Original source / persistent URL | [link] |
-| Download location | [link] |
-| Access date or version | [fill in] |
-| License / terms | [link and verified summary] |
-| Can our processed CSV be shared/reused? | [fill in after checking terms] |
+| Question                                | Answer                                                                                                       |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Original source / persistent URL        | [Economist Intelligence Unit](https://www.eiu.com/n/campaigns/democracy-index-2023/)                         |
+| Download location                       | [Global Democracy Index (2006-2023) on Kaggle](https://www.kaggle.com/datasets/shreyasur965/democracy-index) |
+| Access date or version                  | Accessed on 28 Oct 2026                                                                                      |
+| License / terms                         | [link and verified summary]                                                                                  |
+| Can our processed CSV be shared/reused? | We have not been able to verify redistribution permission. EIU retains rights                                |
+|                                         | over its published material.                                                                                 |
+
+The EIU report is copyrighted © 2024 by The Economist Intelligence Unit Limited,
+with no open license specified. The Kaggle listing reportedly labels its CSV
+CC0.
+
+
+
 
 ## 7. Maintenance
 
@@ -151,3 +159,4 @@
 - [License or terms page](URL) — [page/section used; date accessed]
 
 > **Assignment checks:** Seven datasheet sections, codebook, reproducibility, access/reuse, and representation are required. Scope for each research question and full join counts belong in the group's integrated `DATASHEET.md`. The checkpoint's AI policy requires the actual answers to be written by students from publisher documents and code outputs.
+    
