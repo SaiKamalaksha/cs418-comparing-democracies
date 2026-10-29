@@ -1,0 +1,1191 @@
+{
+  "aggregate_rows": 112,
+  "common_file_label_years": [
+    2023
+  ],
+  "countries_missing_2023_vs_2022": [
+    {
+      "country_code": "AFG",
+      "country_name": "Afghanistan"
+    },
+    {
+      "country_code": "BLR",
+      "country_name": "Belarus"
+    },
+    {
+      "country_code": "CAF",
+      "country_name": "Central African Republic"
+    },
+    {
+      "country_code": "COD",
+      "country_name": "Democratic Republic of Congo"
+    },
+    {
+      "country_code": "ERI",
+      "country_name": "Eritrea"
+    },
+    {
+      "country_code": "GNQ",
+      "country_name": "Equatorial Guinea"
+    },
+    {
+      "country_code": "IRN",
+      "country_name": "Iran"
+    },
+    {
+      "country_code": "LAO",
+      "country_name": "Laos"
+    },
+    {
+      "country_code": "LBY",
+      "country_name": "Libya"
+    },
+    {
+      "country_code": "MMR",
+      "country_name": "Myanmar"
+    },
+    {
+      "country_code": "PRK",
+      "country_name": "North Korea"
+    },
+    {
+      "country_code": "SAU",
+      "country_name": "Saudi Arabia"
+    },
+    {
+      "country_code": "SDN",
+      "country_name": "Sudan"
+    },
+    {
+      "country_code": "SYR",
+      "country_name": "Syria"
+    },
+    {
+      "country_code": "TCD",
+      "country_name": "Chad"
+    },
+    {
+      "country_code": "TJK",
+      "country_name": "Tajikistan"
+    },
+    {
+      "country_code": "TKM",
+      "country_name": "Turkmenistan"
+    },
+    {
+      "country_code": "UZB",
+      "country_name": "Uzbekistan"
+    },
+    {
+      "country_code": "YEM",
+      "country_name": "Yemen"
+    }
+  ],
+  "country_rows": 2653,
+  "country_rows_by_year": {
+    "2006": 167,
+    "2008": 167,
+    "2010": 167,
+    "2011": 167,
+    "2012": 167,
+    "2013": 167,
+    "2014": 167,
+    "2015": 167,
+    "2016": 167,
+    "2017": 167,
+    "2018": 167,
+    "2019": 167,
+    "2020": 167,
+    "2021": 167,
+    "2022": 167,
+    "2023": 148
+  },
+  "coverage_comparison": {
+    "all_2022_country_count": 167,
+    "all_2022_mean": 5.293173652694611,
+    "all_2023_country_count": 148,
+    "all_2023_mean": 5.686756756756757,
+    "balanced_2022_mean": 5.756351351351351,
+    "balanced_2023_mean": 5.686756756756757,
+    "balanced_country_count": 148,
+    "missing_2023_authoritarian_in_2022": 19,
+    "missing_2023_country_count": 19
+  },
+  "development_rows": 194,
+  "distinct_country_codes": 167,
+  "duplicate_keys": 0,
+  "embedded_democracy_matches_2023": 148,
+  "joins": {
+    "2022": {
+      "democracy_year_filter": 2022,
+      "development_reference_year_filter": 2022,
+      "development_rows_before": 194,
+      "development_unmatched": [
+        {
+          "country_code": "AND",
+          "country_name": "Andorra"
+        },
+        {
+          "country_code": "ATG",
+          "country_name": "Antigua and Barbuda"
+        },
+        {
+          "country_code": "BHS",
+          "country_name": "Bahamas"
+        },
+        {
+          "country_code": "BLZ",
+          "country_name": "Belize"
+        },
+        {
+          "country_code": "BRB",
+          "country_name": "Barbados"
+        },
+        {
+          "country_code": "BRN",
+          "country_name": "Brunei Darussalam"
+        },
+        {
+          "country_code": "DMA",
+          "country_name": "Dominica"
+        },
+        {
+          "country_code": "FSM",
+          "country_name": "Micronesia (Federated States of)"
+        },
+        {
+          "country_code": "GRD",
+          "country_name": "Grenada"
+        },
+        {
+          "country_code": "KIR",
+          "country_name": "Kiribati"
+        },
+        {
+          "country_code": "KNA",
+          "country_name": "Saint Kitts and Nevis"
+        },
+        {
+          "country_code": "LCA",
+          "country_name": "Saint Lucia"
+        },
+        {
+          "country_code": "LIE",
+          "country_name": "Liechtenstein"
+        },
+        {
+          "country_code": "MDV",
+          "country_name": "Maldives"
+        },
+        {
+          "country_code": "MHL",
+          "country_name": "Marshall Islands"
+        },
+        {
+          "country_code": "NRU",
+          "country_name": "Nauru"
+        },
+        {
+          "country_code": "PLW",
+          "country_name": "Palau"
+        },
+        {
+          "country_code": "SLB",
+          "country_name": "Solomon Islands"
+        },
+        {
+          "country_code": "SMR",
+          "country_name": "San Marino"
+        },
+        {
+          "country_code": "SOM",
+          "country_name": "Somalia"
+        },
+        {
+          "country_code": "SSD",
+          "country_name": "South Sudan"
+        },
+        {
+          "country_code": "STP",
+          "country_name": "Sao Tome and Principe"
+        },
+        {
+          "country_code": "SYC",
+          "country_name": "Seychelles"
+        },
+        {
+          "country_code": "TON",
+          "country_name": "Tonga"
+        },
+        {
+          "country_code": "TUV",
+          "country_name": "Tuvalu"
+        },
+        {
+          "country_code": "VCT",
+          "country_name": "Saint Vincent and the Grenadines"
+        },
+        {
+          "country_code": "VUT",
+          "country_name": "Vanuatu"
+        },
+        {
+          "country_code": "WSM",
+          "country_name": "Samoa"
+        }
+      ],
+      "development_unmatched_count": 28,
+      "eiu_rows_before": 167,
+      "eiu_unmatched": [
+        {
+          "country_code": "PRK",
+          "country_name": "North Korea"
+        }
+      ],
+      "eiu_unmatched_count": 1,
+      "hdi_file_year": 2023,
+      "hdi_present_ihdi_missing": [
+        "BHR",
+        "CUB",
+        "ERI",
+        "GNQ",
+        "GUY",
+        "KWT",
+        "LBN",
+        "LBY",
+        "QAT",
+        "SAU",
+        "SUR",
+        "SYR",
+        "TKM",
+        "TTO",
+        "UZB"
+      ],
+      "key": [
+        "country_code"
+      ],
+      "left_join_rows_after": 167,
+      "matched_but_missing_hdi": [
+        "TWN"
+      ],
+      "matched_but_missing_ihdi": [
+        "BHR",
+        "CUB",
+        "ERI",
+        "GNQ",
+        "GUY",
+        "KWT",
+        "LBN",
+        "LBY",
+        "QAT",
+        "SAU",
+        "SUR",
+        "SYR",
+        "TKM",
+        "TTO",
+        "TWN",
+        "UZB"
+      ],
+      "matched_from_development": 166,
+      "matched_from_eiu": 166,
+      "name_disagreements": [
+        {
+          "country_code": "COD",
+          "development_name": "Congo (Democratic Republic of the)",
+          "eiu_name": "Democratic Republic of Congo"
+        },
+        {
+          "country_code": "IRN",
+          "development_name": "Iran (Islamic Republic of)",
+          "eiu_name": "Iran"
+        },
+        {
+          "country_code": "LAO",
+          "development_name": "Lao People's Democratic Republic",
+          "eiu_name": "Laos"
+        },
+        {
+          "country_code": "SYR",
+          "development_name": "Syrian Arab Republic",
+          "eiu_name": "Syria"
+        }
+      ],
+      "usable_hdi_ihdi_rows": 150,
+      "usable_hdi_rows": 165
+    },
+    "2023": {
+      "democracy_year_filter": 2023,
+      "development_reference_year_filter": 2022,
+      "development_rows_before": 194,
+      "development_unmatched": [
+        {
+          "country_code": "AFG",
+          "country_name": "Afghanistan"
+        },
+        {
+          "country_code": "AND",
+          "country_name": "Andorra"
+        },
+        {
+          "country_code": "ATG",
+          "country_name": "Antigua and Barbuda"
+        },
+        {
+          "country_code": "BHS",
+          "country_name": "Bahamas"
+        },
+        {
+          "country_code": "BLR",
+          "country_name": "Belarus"
+        },
+        {
+          "country_code": "BLZ",
+          "country_name": "Belize"
+        },
+        {
+          "country_code": "BRB",
+          "country_name": "Barbados"
+        },
+        {
+          "country_code": "BRN",
+          "country_name": "Brunei Darussalam"
+        },
+        {
+          "country_code": "CAF",
+          "country_name": "Central African Republic"
+        },
+        {
+          "country_code": "COD",
+          "country_name": "Congo (Democratic Republic of the)"
+        },
+        {
+          "country_code": "DMA",
+          "country_name": "Dominica"
+        },
+        {
+          "country_code": "ERI",
+          "country_name": "Eritrea"
+        },
+        {
+          "country_code": "FSM",
+          "country_name": "Micronesia (Federated States of)"
+        },
+        {
+          "country_code": "GNQ",
+          "country_name": "Equatorial Guinea"
+        },
+        {
+          "country_code": "GRD",
+          "country_name": "Grenada"
+        },
+        {
+          "country_code": "IRN",
+          "country_name": "Iran (Islamic Republic of)"
+        },
+        {
+          "country_code": "KIR",
+          "country_name": "Kiribati"
+        },
+        {
+          "country_code": "KNA",
+          "country_name": "Saint Kitts and Nevis"
+        },
+        {
+          "country_code": "LAO",
+          "country_name": "Lao People's Democratic Republic"
+        },
+        {
+          "country_code": "LBY",
+          "country_name": "Libya"
+        },
+        {
+          "country_code": "LCA",
+          "country_name": "Saint Lucia"
+        },
+        {
+          "country_code": "LIE",
+          "country_name": "Liechtenstein"
+        },
+        {
+          "country_code": "MDV",
+          "country_name": "Maldives"
+        },
+        {
+          "country_code": "MHL",
+          "country_name": "Marshall Islands"
+        },
+        {
+          "country_code": "MMR",
+          "country_name": "Myanmar"
+        },
+        {
+          "country_code": "NRU",
+          "country_name": "Nauru"
+        },
+        {
+          "country_code": "PLW",
+          "country_name": "Palau"
+        },
+        {
+          "country_code": "SAU",
+          "country_name": "Saudi Arabia"
+        },
+        {
+          "country_code": "SDN",
+          "country_name": "Sudan"
+        },
+        {
+          "country_code": "SLB",
+          "country_name": "Solomon Islands"
+        },
+        {
+          "country_code": "SMR",
+          "country_name": "San Marino"
+        },
+        {
+          "country_code": "SOM",
+          "country_name": "Somalia"
+        },
+        {
+          "country_code": "SSD",
+          "country_name": "South Sudan"
+        },
+        {
+          "country_code": "STP",
+          "country_name": "Sao Tome and Principe"
+        },
+        {
+          "country_code": "SYC",
+          "country_name": "Seychelles"
+        },
+        {
+          "country_code": "SYR",
+          "country_name": "Syrian Arab Republic"
+        },
+        {
+          "country_code": "TCD",
+          "country_name": "Chad"
+        },
+        {
+          "country_code": "TJK",
+          "country_name": "Tajikistan"
+        },
+        {
+          "country_code": "TKM",
+          "country_name": "Turkmenistan"
+        },
+        {
+          "country_code": "TON",
+          "country_name": "Tonga"
+        },
+        {
+          "country_code": "TUV",
+          "country_name": "Tuvalu"
+        },
+        {
+          "country_code": "UZB",
+          "country_name": "Uzbekistan"
+        },
+        {
+          "country_code": "VCT",
+          "country_name": "Saint Vincent and the Grenadines"
+        },
+        {
+          "country_code": "VUT",
+          "country_name": "Vanuatu"
+        },
+        {
+          "country_code": "WSM",
+          "country_name": "Samoa"
+        },
+        {
+          "country_code": "YEM",
+          "country_name": "Yemen"
+        }
+      ],
+      "development_unmatched_count": 46,
+      "eiu_rows_before": 148,
+      "eiu_unmatched": [],
+      "eiu_unmatched_count": 0,
+      "hdi_file_year": 2023,
+      "hdi_present_ihdi_missing": [
+        "BHR",
+        "CUB",
+        "GUY",
+        "KWT",
+        "LBN",
+        "QAT",
+        "SUR",
+        "TTO"
+      ],
+      "key": [
+        "country_code"
+      ],
+      "left_join_rows_after": 148,
+      "matched_but_missing_hdi": [
+        "TWN"
+      ],
+      "matched_but_missing_ihdi": [
+        "BHR",
+        "CUB",
+        "GUY",
+        "KWT",
+        "LBN",
+        "QAT",
+        "SUR",
+        "TTO",
+        "TWN"
+      ],
+      "matched_from_development": 148,
+      "matched_from_eiu": 148,
+      "name_disagreements": [],
+      "usable_hdi_ihdi_rows": 139,
+      "usable_hdi_rows": 147
+    }
+  },
+  "missing_calendar_years_in_eiu": [
+    2007,
+    2009
+  ],
+  "output_profiles": {
+    "development_clean.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 194,
+          "missing": 0,
+          "type": "str"
+        },
+        "development_country_name": {
+          "distinct": 194,
+          "missing": 0,
+          "type": "str"
+        },
+        "development_reference_year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        },
+        "embedded_democracy_normalized": {
+          "max": 0.9810000000000001,
+          "min": 0.21200000000000002,
+          "missing": 46,
+          "type": "float"
+        },
+        "embedded_democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 46,
+          "type": "float"
+        },
+        "hdi": {
+          "max": 0.967,
+          "min": 0.38,
+          "missing": 1,
+          "type": "float"
+        },
+        "hdi_file_year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 0,
+          "type": "int"
+        },
+        "hdi_rank": {
+          "max": 193,
+          "min": 1,
+          "missing": 1,
+          "type": "int"
+        },
+        "ihdi": {
+          "max": 0.91,
+          "min": 0.222,
+          "missing": 29,
+          "type": "float"
+        },
+        "inequality_loss_pct": {
+          "max": 43.003412969283275,
+          "min": 4.751619870410373,
+          "missing": 29,
+          "type": "float"
+        }
+      },
+      "rows": 194
+    },
+    "panel_aggregates.csv": {
+      "fields": {
+        "aggregate_code": {
+          "distinct": 1,
+          "missing": 96,
+          "type": "str"
+        },
+        "aggregate_name": {
+          "distinct": 7,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 7.74925,
+          "min": 4.0696,
+          "missing": 0,
+          "type": "float"
+        },
+        "year": {
+          "max": 2023,
+          "min": 2006,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 112
+    },
+    "panel_country.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.93,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "is_partial_coverage_year": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_above_6": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "year": {
+          "max": 2023,
+          "min": 2006,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 2653
+    },
+    "rq1_2022_all.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.81,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "development_country_name": {
+          "distinct": 166,
+          "missing": 1,
+          "type": "str"
+        },
+        "development_key_matched": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "development_reference_year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 1,
+          "type": "int"
+        },
+        "embedded_democracy_normalized": {
+          "max": 0.9810000000000001,
+          "min": 0.21200000000000002,
+          "missing": 19,
+          "type": "float"
+        },
+        "embedded_democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 19,
+          "type": "float"
+        },
+        "hdi": {
+          "max": 0.967,
+          "min": 0.387,
+          "missing": 2,
+          "type": "float"
+        },
+        "hdi_file_year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 1,
+          "type": "int"
+        },
+        "hdi_rank": {
+          "max": 191,
+          "min": 1,
+          "missing": 2,
+          "type": "int"
+        },
+        "ihdi": {
+          "max": 0.91,
+          "min": 0.237,
+          "missing": 17,
+          "type": "float"
+        },
+        "inequality_loss_pct": {
+          "max": 43.003412969283275,
+          "min": 4.751619870410373,
+          "missing": 17,
+          "type": "float"
+        },
+        "is_partial_coverage_year": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_above_6": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 167
+    },
+    "rq1_2022_hdi.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 165,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 165,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.81,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "development_country_name": {
+          "distinct": 165,
+          "missing": 0,
+          "type": "str"
+        },
+        "development_key_matched": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "development_reference_year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        },
+        "embedded_democracy_normalized": {
+          "max": 0.9810000000000001,
+          "min": 0.21200000000000002,
+          "missing": 18,
+          "type": "float"
+        },
+        "embedded_democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 18,
+          "type": "float"
+        },
+        "hdi": {
+          "max": 0.967,
+          "min": 0.387,
+          "missing": 0,
+          "type": "float"
+        },
+        "hdi_file_year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 0,
+          "type": "int"
+        },
+        "hdi_rank": {
+          "max": 191,
+          "min": 1,
+          "missing": 0,
+          "type": "int"
+        },
+        "ihdi": {
+          "max": 0.91,
+          "min": 0.237,
+          "missing": 15,
+          "type": "float"
+        },
+        "inequality_loss_pct": {
+          "max": 43.003412969283275,
+          "min": 4.751619870410373,
+          "missing": 15,
+          "type": "float"
+        },
+        "is_partial_coverage_year": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_above_6": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 165
+    },
+    "rq1_2022_ihdi.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 150,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 150,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.81,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "development_country_name": {
+          "distinct": 150,
+          "missing": 0,
+          "type": "str"
+        },
+        "development_key_matched": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "development_reference_year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        },
+        "embedded_democracy_normalized": {
+          "max": 0.9810000000000001,
+          "min": 0.21200000000000002,
+          "missing": 11,
+          "type": "float"
+        },
+        "embedded_democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 11,
+          "type": "float"
+        },
+        "hdi": {
+          "max": 0.967,
+          "min": 0.387,
+          "missing": 0,
+          "type": "float"
+        },
+        "hdi_file_year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 0,
+          "type": "int"
+        },
+        "hdi_rank": {
+          "max": 191,
+          "min": 1,
+          "missing": 0,
+          "type": "int"
+        },
+        "ihdi": {
+          "max": 0.91,
+          "min": 0.237,
+          "missing": 0,
+          "type": "float"
+        },
+        "inequality_loss_pct": {
+          "max": 43.003412969283275,
+          "min": 4.751619870410373,
+          "missing": 0,
+          "type": "float"
+        },
+        "is_partial_coverage_year": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_above_6": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 150
+    },
+    "rq1_2023_sensitivity.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 148,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 148,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 0,
+          "type": "float"
+        },
+        "development_country_name": {
+          "distinct": 148,
+          "missing": 0,
+          "type": "str"
+        },
+        "development_key_matched": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "development_reference_year": {
+          "max": 2022,
+          "min": 2022,
+          "missing": 0,
+          "type": "int"
+        },
+        "embedded_democracy_normalized": {
+          "max": 0.9810000000000001,
+          "min": 0.21200000000000002,
+          "missing": 0,
+          "type": "float"
+        },
+        "embedded_democracy_score": {
+          "max": 9.81,
+          "min": 2.12,
+          "missing": 0,
+          "type": "float"
+        },
+        "hdi": {
+          "max": 0.967,
+          "min": 0.394,
+          "missing": 1,
+          "type": "float"
+        },
+        "hdi_file_year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 0,
+          "type": "int"
+        },
+        "hdi_rank": {
+          "max": 189,
+          "min": 1,
+          "missing": 1,
+          "type": "int"
+        },
+        "ihdi": {
+          "max": 0.91,
+          "min": 0.261,
+          "missing": 9,
+          "type": "float"
+        },
+        "inequality_loss_pct": {
+          "max": 43.003412969283275,
+          "min": 4.751619870410373,
+          "missing": 9,
+          "type": "float"
+        },
+        "is_partial_coverage_year": {
+          "distinct": 1,
+          "missing": 0,
+          "type": "bool"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_above_6": {
+          "distinct": 2,
+          "missing": 0,
+          "type": "bool"
+        },
+        "year": {
+          "max": 2023,
+          "min": 2023,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 148
+    },
+    "rq2_changes.csv": {
+      "fields": {
+        "country_code": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "democracy_score": {
+          "max": 9.93,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "previous_score": {
+          "max": 9.93,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        },
+        "previous_year": {
+          "max": 2021,
+          "min": 2010,
+          "missing": 0,
+          "type": "int"
+        },
+        "regime": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "regime_previous": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_change": {
+          "max": 2.74,
+          "min": -2.53,
+          "missing": 0,
+          "type": "float"
+        },
+        "year": {
+          "max": 2022,
+          "min": 2011,
+          "missing": 0,
+          "type": "int"
+        }
+      },
+      "rows": 2004
+    },
+    "rq2_endpoints.csv": {
+      "fields": {
+        "change_2006_2022": {
+          "max": 2.92,
+          "min": -3.19,
+          "missing": 0,
+          "type": "float"
+        },
+        "country_code": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "country_name": {
+          "distinct": 167,
+          "missing": 0,
+          "type": "str"
+        },
+        "regime_2006": {
+          "distinct": 4,
+          "missing": 0,
+          "type": "str"
+        },
+        "score_2006": {
+          "max": 9.88,
+          "min": 1.03,
+          "missing": 0,
+          "type": "float"
+        },
+        "score_2022": {
+          "max": 9.81,
+          "min": 0.32,
+          "missing": 0,
+          "type": "float"
+        }
+      },
+      "rows": 167
+    }
+  },
+  "raw_eiu_rows": 2765,
+  "raw_missing_tokens": {
+    "development_IHDI": {
+      "": 1,
+      "..": 28
+    },
+    "eiu_Code_blank": 96
+  },
+  "rq2_annual_changes": 2004,
+  "rq2_declined": 99,
+  "rq2_endpoint_rows": 167,
+  "rq2_improved": 66,
+  "rq2_unchanged": 2,
+  "year_semantics": "The development file stores Year=2023. Its HDI/IHDI values match the 2022 estimates in UNDP HDR 2023-24 Tables 1 and 3 (Table 3, PDF page 297). We preserve hdi_file_year and annotate development_reference_year=2022. IHDI component surveys may be from earlier years; this is not a claim that all underlying measurements occurred in 2022."
+}

@@ -1,0 +1,31 @@
+{
+  "democracy-index-eiu.csv": {
+    "declared_distributor_license": "CC0; upstream EIU redistribution restrictions remain unresolved",
+    "documentation_checked_date": "2026-10-28",
+    "file_bytes": 63768,
+    "format": "UTF-8 CSV",
+    "missing_provenance": "Original download date/version not recorded",
+    "original_download_date": null,
+    "original_publisher_version": null,
+    "rows": 2765,
+    "sha256": "90c752b0721a08848f18c247bf53e46308798babb0db9f7164c73d37647b4c01",
+    "source_page": "https://www.kaggle.com/datasets/shreyasur965/democracy-index",
+    "source_version_observed": "Kaggle version 2, updated October 20, 2024",
+    "upstream_documentation": "https://ourworldindata.org/grapher/democracy-index-eiu"
+  },
+  "hdi-ihdi-democracy-by-country.csv": {
+    "declared_distributor_license": "CC BY-SA 3.0; UNDP and EIU components have separate terms",
+    "documentation_checked_date": "2026-10-28",
+    "file_bytes": 8828,
+    "format": "UTF-8 CSV",
+    "missing_provenance": "Original download date/version not recorded",
+    "original_download_date": null,
+    "original_publisher_version": null,
+    "pinned_download": "https://huggingface.co/datasets/marksverdhei/hdi-ihdi-democracy-by-country/raw/1355e41eb8dc16a949dbe63045abafbcaeebff28/hdi_ihdi_democracy.csv",
+    "rows": 194,
+    "sha256": "11708c2a94e349ffaa25aed8f0e2ff200887d56d03111b2ab754a94c79518d30",
+    "source_page": "https://huggingface.co/datasets/marksverdhei/hdi-ihdi-democracy-by-country",
+    "source_revision_observed": "1355e41eb8dc16a949dbe63045abafbcaeebff28",
+    "upstream_documentation": "https://hdr.undp.org/content/human-development-report-2023-24"
+  }
+}
