@@ -1,3 +1,12 @@
 .ipynb_checkpoints/
 /data/*.csv
 __pycache__/
+
+# ignore anything with no commit in file name
+*NO_COMMIT*
+*no_commit*
+*NOCOMMIT*
+*nocommit*
+
+# jupyter ai chat files
+*.chat
