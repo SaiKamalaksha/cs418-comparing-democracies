@@ -10,3 +10,5 @@ __pycache__/
 
 # jupyter ai chat files
 *.chat
+
+*_CURRENT_TASK.md
