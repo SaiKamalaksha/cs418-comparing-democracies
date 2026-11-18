@@ -34,6 +34,27 @@ SOURCES = {
     },
 }
 
+# This auxiliary source is downloaded and hash-checked by Don's Checkpoint 6
+# notebook. It is not an input to the core build, so the large RData file stays
+# out of the repository while its exact provenance remains in the manifest.
+AUXILIARY_SOURCES = {
+    "vdem-v13-country-year-full-others.RData": {
+        "role": "Checkpoint 6 contextual sensitivity analysis only",
+        "source_page": "https://github.com/vdeminstitute/vdemdata/tree/V13",
+        "pinned_download": "https://raw.githubusercontent.com/vdeminstitute/vdemdata/V13/data/vdem.RData",
+        "source_version": "V-Dem Country-Year Full+Others v13, March 2023",
+        "source_revision": "vdeminstitute/vdemdata tag V13 (commit 6322af7)",
+        "sha256": "1e8749eed57bf4ce34356123dcc074c1e5be27887abf1803ff605bbe187e68a8",
+        "file_bytes": 31556421,
+        "rows": 27555,
+        "format": "RData",
+        "documentation_checked_date": "2026-11-17",
+        "declared_license": "CC BY-SA 4.0",
+        "upstream_documentation": "https://www.v-dem.net/documents/24/codebook_v13.pdf",
+        "repository_storage": "Downloaded to temporary cache by notebook; not committed",
+    }
+}
+
 YEAR_NOTE = (
     "The development file stores Year=2023. Its HDI/IHDI values match the "
     "2022 estimates in UNDP HDR 2023-24 Tables 1 and 3 (Table 3, PDF page 297). "
@@ -66,6 +87,7 @@ def read_sources():
         tables[name] = rows
         manifest[name] = dict(metadata, file_bytes=len(blob), rows=len(rows),
                               format="UTF-8 CSV", missing_provenance="Original download date/version not recorded")
+    manifest.update(AUXILIARY_SOURCES)
     return tables, manifest
 
 

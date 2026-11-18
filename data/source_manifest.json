@@ -27,5 +27,20 @@
     "source_page": "https://huggingface.co/datasets/marksverdhei/hdi-ihdi-democracy-by-country",
     "source_revision_observed": "1355e41eb8dc16a949dbe63045abafbcaeebff28",
     "upstream_documentation": "https://hdr.undp.org/content/human-development-report-2023-24"
+  },
+  "vdem-v13-country-year-full-others.RData": {
+    "declared_license": "CC BY-SA 4.0",
+    "documentation_checked_date": "2026-11-17",
+    "file_bytes": 31556421,
+    "format": "RData",
+    "pinned_download": "https://raw.githubusercontent.com/vdeminstitute/vdemdata/V13/data/vdem.RData",
+    "repository_storage": "Downloaded to temporary cache by notebook; not committed",
+    "role": "Checkpoint 6 contextual sensitivity analysis only",
+    "rows": 27555,
+    "sha256": "1e8749eed57bf4ce34356123dcc074c1e5be27887abf1803ff605bbe187e68a8",
+    "source_page": "https://github.com/vdeminstitute/vdemdata/tree/V13",
+    "source_revision": "vdeminstitute/vdemdata tag V13 (commit 6322af7)",
+    "source_version": "V-Dem Country-Year Full+Others v13, March 2023",
+    "upstream_documentation": "https://www.v-dem.net/documents/24/codebook_v13.pdf"
   }
 }
