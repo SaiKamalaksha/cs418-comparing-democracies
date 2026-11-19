@@ -11,7 +11,7 @@ This is the combined narrative for the group’s three findings. Each member con
 
 ### Don’s Finding: Democracy Decline
 
-![V-Dem component changes from 2014 to 2022 for the five countries with the largest EIU declines.](figures/don_vdem_component_changes_2014_2022.png)
+![V-Dem component changes from 2014 to 2022 for the five countries with the largest EIU declines.](Checkpoint%206%20-%20Narrative%20Analysis/figures/don_vdem_component_changes_2014_2022.png)
 
 The five countries with the largest 2006–2022 EIU democracy-score declines in the selected 12-country North American comparison group, Nicaragua, Mexico, Guatemala, Haiti, and El Salvador, account for 8.53 of the group’s net 10.66-point decline, or about 80%. This makes them a meaningful set of cases for examining what accompanied the broader decline in this comparison group instead of a selection of dramatic examples.
 
