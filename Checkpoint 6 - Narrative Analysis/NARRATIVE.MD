@@ -2,7 +2,7 @@
 
 - **Finding 1 (Democracy & Human Development Threshold):** Across 150 countries with complete 2022 EIU and UNDP records, human development exhibits no statistically significant relationship with democracy below an EIU score of 6.0, but rises sharply above the 6.0 threshold—a divergence that widens when accounting for inequality via IHDI.
 - **Finding 2 (2006–2022 Democracy Decline — Don):** *[Insert Don's one-sentence falsifiable claim here.]*
-- **Finding 3 (Hybrid-Regime Annual Variation — Daniel):** *[Insert Daniel's one-sentence falsifiable claim here.]*
+- **Finding 3 (Hybrid-Regime Annual Variation — Daniel):** From 2011 to 2022, countries classed as hybrid regimes in 2010 had the largest typical year-to-year EIU score movement (median 0.150 points), about 2.4 times the median for full democracies; this measures movement in either direction, not improvement.
 
 ---
 
@@ -36,10 +36,14 @@ These results show that democracy scores and human development are associated, e
 
 ---
 
-## 3. Hybrid Regimes and Annual Score Variation (2006–2022)
+## 3. Hybrid Regimes and Annual Score Variation (2011–2022)
 **Author:** Daniel  
 **Notebook:** `Checkpoint 6 - Narrative Analysis/daniel_narrative.ipynb`
 
-*[Paste Daniel's connected paragraph here.]*
+To compare how much democracy scores changed from year to year, I calculated each country's average yearly movement from 2011 to 2022. Increases and decreases both count as movement. Countries were grouped by their EIU regime type in 2010, before the years being compared, and each country counted once. Hybrid regimes had the largest typical movement: their median was 0.150 points (31 countries), compared with 0.090 points for all other regime types combined. The difference was 0.060 points (95% bootstrap confidence interval: [0.011, 0.098]; p = 0.00015). The hybrid-regime median was about 2.4 times the full-democracy median of 0.063. The difference was statistically clear compared with flawed and full democracies, but not quite compared with authoritarian regimes (p = 0.0535).
 
-![Daniel's Figure Title](Checkpoint%206%20-%20Narrative%20Analysis/fig_daniel_placeholder.png)
+More movement does not necessarily mean improvement. For countries classed as hybrid in 2010, the median total score change over the period was -0.42 points, and 58.1% had a net decline. Of the 37 one-year changes of at least 0.5 points that occurred while a country was classed as hybrid, 22 were declines.
+
+The pattern remained when the six countries with a one-year change of at least 1.5 points were excluded: the hybrid-regime median stayed at 0.150. It was also present after excluding 2020 and 2021, when the median was 0.132. In separate periods, the median was 0.110 in 2011–2016 and 0.148 in 2017–2022. However, score movement was also greater for countries whose 2010 scores were closer to 5 (Spearman correlation: $\rho = -0.48$, $p = 3.7 \times 10^{-11}$). Since 5 is near the middle of the EIU scale, this suggests that a country's starting score may help explain why hybrid regimes showed more movement. These results describe score changes, but do not by themselves explain what caused them.
+
+![Typical Year-to-Year Democracy Score Movement by 2010 Regime Type](figures/daniel_hybrid_variation.png)
