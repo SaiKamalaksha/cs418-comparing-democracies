@@ -39,4 +39,4 @@ More movement does not necessarily mean improvement. For countries classed as hy
 
 The pattern remained when the six countries with a one-year change of at least 1.5 points were excluded: the hybrid-regime median stayed at 0.150. It was also present after excluding 2020 and 2021, when the median was 0.132. In separate periods, the median was 0.110 in 2011–2016 and 0.148 in 2017–2022. However, score movement was also greater for countries whose 2010 scores were closer to 5 (Spearman correlation: $\rho = -0.48$, $p = 3.7 \times 10^{-11}$). Since 5 is near the middle of the EIU scale, this suggests that a country's starting score may help explain why hybrid regimes showed more movement. These results describe score changes, but do not by themselves explain what caused them.
 
-![Typical Year-to-Year Democracy Score Movement by 2010 Regime Type](figures/daniel_hybrid_variation.png)
+![Typical Year-to-Year Democracy Score Movement by 2010 Regime Type](Checkpoint%206%20-%20Narrative%20Analysis/figures/daniel_hybrid_variation.png)
